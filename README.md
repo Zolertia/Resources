@@ -24,4 +24,4 @@ This repository holds the technical documentation, libraries and reference desig
 
 * [Altium](https://github.com/Zolertia/Resources/tree/master/Zoul/Hardware/Revision%20A/Design/Footprints/Altium)
 * [Eagle](https://github.com/Zolertia/Resources/tree/master/Zoul/Hardware/Revision%20A/Design/Footprints/Eagle/Zoul)
-* [Fritzing](https://github.com/Zolertia/Resources/tree/master/Zoul/Hardware/Revision%20A/Design/Footprints/Fritzing)
+* [Fritzing](https://github.com/Zolertia/Resources/tree/master/Zoul/Hardware/Revision%20A/Design/Footprints/Fritzing) and its [tutorial](https://github.com/Zolertia/Resources/wiki/Fritzing)
