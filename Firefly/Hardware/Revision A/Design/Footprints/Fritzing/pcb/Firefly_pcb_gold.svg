@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--<!DOCTYPE svg> -->
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In  -->
+<svg xmlns="http://www.w3.org/2000/svg" width="69.067223mm" xml:space="preserve"  x="0px" version="1.2" y="0px" height="26.082363mm" viewBox="0 0 244.72638 92.417822" baseProfile="tiny">
+
+<g id="copper1"><g id="copper0">
+  <circle fill="none" x="67.840157" y="1047.1536" stroke="#F7BD13" id="connector1pin"  r="2.052" stroke-width="20"/>
+  <circle fill="none" cx="76.840157" cy="1047.1536" stroke="#F7BD13" id="connector2pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="67.840157" cy="966.15356" stroke="#F7BD13" id="connector3pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="76.840157" cy="966.15356" stroke="#F7BD13" id="connector4pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="85.840157" cy="1047.1536" stroke="#F7BD13" id="connector5pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="85.840157" cy="966.15356" stroke="#F7BD13" id="connector6pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="94.840157" cy="1047.1536" stroke="#F7BD13" id="connector7pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="94.840157" cy="966.15356" stroke="#F7BD13" id="connector8pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="112.84016" cy="1047.1536" stroke="#F7BD13" id="connector9pin"  r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="112.84016" cy="966.15356" stroke="#F7BD13" id="connector10pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="130.84016" cy="1047.1536" stroke="#F7BD13" id="connector11pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="130.84016" cy="966.15356" stroke="#F7BD13" id="connector12pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" x="148.84016" y="1047.1536" stroke="#F7BD13" id="connector13pin" r="2.052" stroke-width="20"/>
+  <circle fill="none" x="148.84016" y="966.15356" stroke="#F7BD13" id="connector14pin" r="2.052" stroke-width="1.224"/>
+  <circle cx='60' cy='560' fill='none' id='connector35pin' r='27.5' stroke='rgb(255, 191, 0)' stroke-width='20'/>
+  <circle fill="none" cx="166.84016" cy="1047.1536" stroke="#F7BD13" id="connector15pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="166.84016" cy="966.15356" stroke="#F7BD13" id="connector16pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="175.84016" cy="1047.1536" stroke="#F7BD13" id="connector17pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="175.84016" cy="966.15356" stroke="#F7BD13" id="connector18pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="184.84016" cy="1047.1536" stroke="#F7BD13" id="connector19pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="184.84016" cy="966.15356" stroke="#F7BD13" id="connector20pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="103.84016" cy="1047.1536" stroke="#F7BD13" id="connector21pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="103.84016" cy="966.15356" stroke="#F7BD13" id="connector22pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="121.84016" cy="1047.1536" stroke="#F7BD13" id="connector23pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cy="966.15356" cx="121.84016" stroke="#F7BD13" id="connector24pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="139.84016" cy="1047.1536" stroke="#F7BD13" id="connector24pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="139.84016" cy="966.15356" stroke="#F7BD13" id="connector25pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="157.84016" cy="1047.1536" stroke="#F7BD13" id="connector26pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="157.84016" cy="966.15356" stroke="#F7BD13" id="connector27pin" r="2.052" stroke-width="1.224"/>
+  <circle fill="none" cx="190.72523" cy="983.24329" stroke="#F7BD13" id="connector28pin" r="2.052" stroke-width="1.224"/>
+</g></g>
+<g id="silkscreen">
+  <rect width="28.347" x="0.024" y="0.024" height="36.851" fill="none" stroke="#FFFFFF" stroke-width="0.7087"/>
+</g>
+</svg>
