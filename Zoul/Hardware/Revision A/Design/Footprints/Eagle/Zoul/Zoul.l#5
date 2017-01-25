@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -168,6 +168,7 @@
 </symbols>
 <devicesets>
 <deviceset name="ZOUL">
+<description>The Zoul is a core module developed by Zolertia to target most IoT applications, providing a flexible and affordable module solution to integrate to most existing products and solutions, or ease the prototyping and production of new products in a short time.</description>
 <gates>
 <gate name="G$1" symbol="ZOUL" x="-7.62" y="-15.24"/>
 </gates>
