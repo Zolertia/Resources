@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -114,6 +114,63 @@
 </package>
 </packages>
 <symbols>
+<symbol name="ZOUL">
+<polygon width="0.254" layer="94">
+<vertex x="-10.16" y="-20.32"/>
+<vertex x="27.94" y="-20.32"/>
+<vertex x="27.94" y="48.26"/>
+<vertex x="-10.16" y="48.26"/>
+</polygon>
+<pin name="CC1200.CS.PB5" x="-15.24" y="33.02" length="middle"/>
+<pin name="CC1200.CLK.OB2" x="-15.24" y="30.48" length="middle"/>
+<pin name="CC1200.MOSI.PB1" x="-15.24" y="27.94" length="middle"/>
+<pin name="CC1200.MISO.PB3" x="-15.24" y="25.4" length="middle"/>
+<pin name="CC1200.RESET.PC7" x="-15.24" y="22.86" length="middle"/>
+<pin name="CC1200.GP0.PB4" x="-15.24" y="20.32" length="middle"/>
+<pin name="CC1200.GP2.PB0" x="-15.24" y="17.78" length="middle"/>
+<pin name="SUBGHZ.VDD" x="-15.24" y="15.24" length="middle"/>
+<pin name="DGND@1" x="-15.24" y="12.7" length="middle"/>
+<pin name="DGND@2" x="-15.24" y="10.16" length="middle"/>
+<pin name="2.4GHZ.VDD" x="-15.24" y="7.62" length="middle"/>
+<pin name="JTAG.TMS" x="-15.24" y="5.08" length="middle"/>
+<pin name="JTAG.TCK.PB6" x="-15.24" y="2.54" length="middle"/>
+<pin name="JTAG.TDO.PB7" x="-15.24" y="0" length="middle"/>
+<pin name="JTAG.TDI" x="-15.24" y="-2.54" length="middle"/>
+<pin name="JTAG.RESET" x="-15.24" y="-5.08" length="middle"/>
+<pin name="USB.D+" x="-15.24" y="-7.62" length="middle"/>
+<pin name="USB.D-" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PC6" x="-15.24" y="-12.7" length="middle"/>
+<pin name="PC5" x="-15.24" y="-15.24" length="middle"/>
+<pin name="PC4" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="PC3" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="PC2" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC1" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="PC0" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA0.BSL.RXD" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="PA1.BSL.TXD" x="33.02" y="2.54" length="middle" rot="R180"/>
+<pin name="PA2" x="33.02" y="5.08" length="middle" rot="R180"/>
+<pin name="PA3" x="33.02" y="7.62" length="middle" rot="R180"/>
+<pin name="PA4" x="33.02" y="10.16" length="middle" rot="R180"/>
+<pin name="PA5" x="33.02" y="12.7" length="middle" rot="R180"/>
+<pin name="PA6" x="33.02" y="15.24" length="middle" rot="R180"/>
+<pin name="PA7" x="33.02" y="17.78" length="middle" rot="R180"/>
+<pin name="PD0" x="33.02" y="20.32" length="middle" rot="R180"/>
+<pin name="PD1" x="33.02" y="22.86" length="middle" rot="R180"/>
+<pin name="PD2" x="33.02" y="25.4" length="middle" rot="R180"/>
+<pin name="PD3" x="33.02" y="27.94" length="middle" rot="R180"/>
+<pin name="PD4" x="33.02" y="30.48" length="middle" rot="R180"/>
+<pin name="PD5" x="33.02" y="33.02" length="middle" rot="R180"/>
+<pin name="RFGND@1" x="17.78" y="53.34" length="middle" rot="R270"/>
+<pin name="RF.SUBGHZ" x="15.24" y="53.34" length="middle" rot="R270"/>
+<pin name="RF.GND@2" x="12.7" y="53.34" length="middle" rot="R270"/>
+<pin name="RF.GND@3" x="2.54" y="53.34" length="middle" rot="R270"/>
+<pin name="RF.2.4GHZ" x="0" y="53.34" length="middle" rot="R270"/>
+<pin name="RF.GND@4" x="-2.54" y="53.34" length="middle" rot="R270"/>
+<text x="-5.08" y="33.02" size="1.27" layer="94" align="top-right">nameç</text>
+<text x="-2.54" y="27.94" size="1.27" layer="94" align="top-right">nameç</text>
+<text x="5.08" y="17.78" size="1.27" layer="94" align="top-right">nameç</text>
+<text x="5.08" y="17.78" size="1.27" layer="94" align="top-right">nameç</text>
+</symbol>
 </symbols>
 <devicesets>
 </devicesets>

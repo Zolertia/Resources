@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -116,7 +116,7 @@
 <symbols>
 <symbol name="ZOUL">
 <pin name="CC1200.CS.PB5" x="-15.24" y="33.02" length="middle"/>
-<pin name="CC1200.CLK.OB2" x="-15.24" y="30.48" length="middle"/>
+<pin name="CC1200.CLK.PB2" x="-15.24" y="30.48" length="middle"/>
 <pin name="CC1200.MOSI.PB1" x="-15.24" y="27.94" length="middle"/>
 <pin name="CC1200.MISO.PB3" x="-15.24" y="25.4" length="middle"/>
 <pin name="CC1200.RESET.PC7" x="-15.24" y="22.86" length="middle"/>
@@ -172,7 +172,54 @@
 <gate name="G$1" symbol="ZOUL" x="-7.62" y="-15.24"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="ZOULMOUSEBITE">
+<connects>
+<connect gate="G$1" pin="2.4GHZ.VDD" pad="P$11"/>
+<connect gate="G$1" pin="CC1200.CLK.PB2" pad="P$2"/>
+<connect gate="G$1" pin="CC1200.CS.PB5" pad="P$1"/>
+<connect gate="G$1" pin="CC1200.GP0.PB4" pad="P$6"/>
+<connect gate="G$1" pin="CC1200.GP2.PB0" pad="P$7"/>
+<connect gate="G$1" pin="CC1200.MISO.PB3" pad="P$4"/>
+<connect gate="G$1" pin="CC1200.MOSI.PB1" pad="P$3"/>
+<connect gate="G$1" pin="CC1200.RESET.PC7" pad="P$5"/>
+<connect gate="G$1" pin="DGND@1" pad="P$9"/>
+<connect gate="G$1" pin="DGND@2" pad="P$10"/>
+<connect gate="G$1" pin="JTAG.RESET" pad="P$16"/>
+<connect gate="G$1" pin="JTAG.TCK.PB6" pad="P$13"/>
+<connect gate="G$1" pin="JTAG.TDI" pad="P$15"/>
+<connect gate="G$1" pin="JTAG.TDO.PB7" pad="P$14"/>
+<connect gate="G$1" pin="JTAG.TMS" pad="P$12"/>
+<connect gate="G$1" pin="PA0.BSL.RXD" pad="P$26"/>
+<connect gate="G$1" pin="PA1.BSL.TXD" pad="P$27"/>
+<connect gate="G$1" pin="PA2" pad="P$28"/>
+<connect gate="G$1" pin="PA3" pad="P$29"/>
+<connect gate="G$1" pin="PA4" pad="P$30"/>
+<connect gate="G$1" pin="PA5" pad="P$31"/>
+<connect gate="G$1" pin="PA6" pad="P$32"/>
+<connect gate="G$1" pin="PA7" pad="P$33"/>
+<connect gate="G$1" pin="PC0" pad="P$25"/>
+<connect gate="G$1" pin="PC1" pad="P$24"/>
+<connect gate="G$1" pin="PC2" pad="P$23"/>
+<connect gate="G$1" pin="PC3" pad="P$22"/>
+<connect gate="G$1" pin="PC4" pad="P$21"/>
+<connect gate="G$1" pin="PC5" pad="P$20"/>
+<connect gate="G$1" pin="PC6" pad="P$19"/>
+<connect gate="G$1" pin="PD0" pad="P$34"/>
+<connect gate="G$1" pin="PD1" pad="P$35"/>
+<connect gate="G$1" pin="PD2" pad="P$36"/>
+<connect gate="G$1" pin="PD3" pad="P$37"/>
+<connect gate="G$1" pin="PD4" pad="P$38"/>
+<connect gate="G$1" pin="PD5" pad="P$39"/>
+<connect gate="G$1" pin="RF.2.4GHZ" pad="P$44"/>
+<connect gate="G$1" pin="RF.GND@2" pad="P$42"/>
+<connect gate="G$1" pin="RF.GND@3" pad="P$43"/>
+<connect gate="G$1" pin="RF.GND@4" pad="P$45"/>
+<connect gate="G$1" pin="RF.SUBGHZ" pad="P$41"/>
+<connect gate="G$1" pin="RFGND@1" pad="P$40"/>
+<connect gate="G$1" pin="SUBGHZ.VDD" pad="P$8"/>
+<connect gate="G$1" pin="USB.D+" pad="P$17"/>
+<connect gate="G$1" pin="USB.D-" pad="P$18"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
