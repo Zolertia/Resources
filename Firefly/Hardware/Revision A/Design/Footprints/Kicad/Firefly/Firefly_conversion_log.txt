@@ -1,0 +1,5 @@
+#********** START OF eagle-lbr2kicad-1.0.ulp 3.1 26-03-2018 :12:53:16 LOG **********#
+Missing Prefix Part =''				FIREFLY_PCB					Firefly		M
+    Conversion completed with no Messages
+#********** END OF eagle-lbr2kicad-1.0.ulp 3.1 26-03-2018 :12:53:16 LOG **********#
+
